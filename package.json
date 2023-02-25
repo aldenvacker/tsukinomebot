@@ -1,0 +1,37 @@
+{
+  "name": "server-nuker",
+  "version": "2.0.0",
+  "description": "Bot made for EDUCATIONAL PURPOSE only! Do not misuse it",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/**",
+      "commands/**",
+      "versioncheck.js",
+      "version.json"
+    ],
+    "targets": [
+      "node14-win-x64"
+    ]
+  },
+  "author": "@Tech Vevo",
+  "license": "ISC",
+  "dependencies": {
+    "commando": "^0.0.2",
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "github:discordjs/Commando",
+    "dotenv-flow": "^3.2.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint": "^8.26.0",
+    "eslint-plugin-react": "^7.31.10"
+  }
+}
